@@ -67,7 +67,7 @@ Endpoint: `POST /api/calculate`
 Request Body:
 ```json
 {
-    "targetAmount": 43
+   "targetAmount": 43
 }
 ```
 
@@ -82,26 +82,22 @@ curl -X POST \
 Response Format:
 ```json
 {
-    "coinCounts": [
-        {
-            "denomination": 1.0,
-            "count": 1
-        },
-        {
-            "denomination": 2.0,
-            "count": 1
-        },
-        {
-            "denomination": 10.0,
-            "count": 3
-        },
-        {
-            "denomination": 100.0,
-            "count": 3
-        }
-    ],
-    "message": "Calculation successful",
-    "success": true
+   "coinCounts": [
+      {
+         "denomination": 1.0,
+         "count": 1
+      },
+      {
+         "denomination": 2.0,
+         "count": 1
+      },
+      {
+         "denomination": 10.0,
+         "count": 4
+      }
+   ],
+   "message": "Calculation successful",
+   "success": true
 }
 ```
 
